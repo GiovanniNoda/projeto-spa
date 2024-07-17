@@ -5,15 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SPA-Universe</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/home.css">
+    <link rel="stylesheet" href="style/universe.css">
+    <link rel="stylesheet" href="style/explorer.css">
 </head>
 <body>
-    <header>
-        <img src="assets/Vector.svg" alt="Logo marca do projeto">
-        <nav>
-            <a href="/">Home</a>
-            <a href="/universe">O Universo</a>
-            <a href="/explorer">Exploração</a>
-        </nav>
-    </header>
+    <div id="app" class="img1">
+        <header>
+            <img src="assets/Vector.svg" alt="Logo marca do projeto">
+            <nav>
+                <a href="/" onclick="route()">Home</a>
+                <a href="/universe" onclick="route()">O Universo</a>
+                <a href="/explorer" onclick="route()">Exploração</a>
+            </nav>
+        </header>
+        <div id="main" class="home">
+  
+        </div>
+    </div>
+
+    <script src="js/index.js" type="module"></script>
 </body>
 </html>

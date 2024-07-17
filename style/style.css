@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,8 +10,58 @@
 
 :root {
     font-size: 62.5%;
+    --color-font-nav: #C4C4CC;
+    --color-main: #E1E1E6;
+    --color-btn-hover: #02799D;
 }
 
 body {
-    background-image: url(../assets/mountains-universe-1.jpg);  
+    font-family: "Roboto", sans-serif;
 }
+
+#app {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.img1{
+    background: url(../assets/mountains-universe-1.jpg) center center no-repeat;  
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 4rem 0 4rem 7.2rem;
+}
+
+header nav {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 3.2rem;
+    margin-left: 4.2rem;
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 2.1rem;
+}
+
+nav a {
+    color: var(--color-font-nav);
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+
+nav a:hover {
+    color: white;
+    font-weight: 700;
+    transform: scale(1.1);
+}
+
+nav a:focus {
+    color: white;
+    font-weight: 700;
+}
+
