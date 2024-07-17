@@ -26,7 +26,7 @@ body {
 }
 
 .img1{
-    background: url(../assets/mountains-universe-1.jpg) center center no-repeat;  
+    background: url(../assets/mountains-universe-1.jpg) center center no-repeat fixed;  
     background-size: cover;
 }
 
@@ -63,5 +63,9 @@ nav a:hover {
 nav a:focus {
     color: white;
     font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    
 }
 

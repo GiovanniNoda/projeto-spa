@@ -56,4 +56,7 @@ function clickButton() {
 
 window.clickButton = () => clickButton()
 
+window.onpopstate = () => handle()
+
 handle()
+
