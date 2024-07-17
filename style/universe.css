@@ -19,3 +19,24 @@
     font-size: 1.8rem;
     color: var(--color-main);
 }
+
+@media (max-width: 767px) {
+    .universe {
+        margin: 0;
+    }
+
+    .universe h2 {
+        font-size: 2.6rem;
+        max-width: 14rem;
+        margin: auto;
+        margin-top: 6rem;
+        margin-bottom: 4rem;
+    }
+
+    .universe p {
+        font-size: 1.4rem;
+        max-width: 85vw;
+        line-height: 2.4rem;
+        margin: auto;
+    }
+}

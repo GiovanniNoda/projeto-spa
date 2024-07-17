@@ -65,7 +65,17 @@ nav a:focus {
     font-weight: 700;
 }
 
-@media (max-width: 768px) {
-    
+@media (max-width: 767px) {
+    header {
+        flex-flow: column nowrap;
+        align-items: flex-start;
+        gap: 4rem;
+        padding: 2rem 0 4rem 4.2rem;
+    }
+
+    header nav {
+        margin: 0;
+        font-size: 1.6rem;
+    }
 }
 
