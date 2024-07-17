@@ -11,7 +11,8 @@
     font-family: "Roboto", sans-serif;
     font-size: 4.8rem;
     font-weight: 700;
-    min-width: 22rem;
+    width: 40rem;
+    transition: font-size 0.3s ease, max-width 0.3s ease, margin 0.3s ease;
 }
 
 .home button {
